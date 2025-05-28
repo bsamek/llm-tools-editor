@@ -6,6 +6,7 @@ requires-python = ">=3.9"
 dependencies = [
     "llm>=0.26"
 ]
+authors = [{ name = "Brian Samek", email = "brian.samek@gmail.com" }]
 
 [project.entry-points.llm]
 llm_tools_editor = "llm_tools_editor"
