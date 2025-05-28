@@ -1,0 +1,11 @@
+[project]
+name = "llm-tools-editor"
+version = "0.1"
+description = "Edit code with the llm CLI"
+requires-python = ">=3.9"
+dependencies = [
+    "llm>=0.26"
+]
+
+[project.entry-points.llm]
+llm_tools_editor = "llm_tools_editor"
